@@ -45,3 +45,6 @@ def get_ipproxy(proxy_dic):
     exec_aiohttp(proxy_dic)
     print(len(table))
     return table
+
+
+get_ipproxy(proxy_dic)
